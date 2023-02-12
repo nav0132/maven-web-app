@@ -1,3 +1,4 @@
+pipeline {
 stages {
   stage('Build') {
     steps {
@@ -14,4 +15,5 @@ stages {
       sh 'echo "This is my Deploy step"'
     }
   }
+}
 }
